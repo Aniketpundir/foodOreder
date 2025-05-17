@@ -74,7 +74,7 @@ const PlaceOrder = () => {
           key: orderData.data.key,
           amount: razorpayOrder.amount,
           currency: razorpayOrder.currency,
-          name: "Tomato order",
+          name: "Zaykaxpress order",
           order_id: razorpayOrder.id,
           handler: function (response) {
             verifyPayment(response);

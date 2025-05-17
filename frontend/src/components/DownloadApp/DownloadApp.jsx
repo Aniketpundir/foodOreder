@@ -8,7 +8,7 @@ const DownloadApp = () => {
       <div className="download-app">
         <div>
           <h1>
-            For Better Experience Download <br /> Tomato App
+            For Better Experience Download <br /> ZayKaxpress App
           </h1>
         </div>
         <div className="download-app-img">

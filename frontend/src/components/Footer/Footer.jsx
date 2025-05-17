@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-content">
           <div className="footer-content-left">
-            <img src={assets.logo} />
+            <h2 className="footer-logo">ZayKaxpress</h2>
             <p>
               Lorem ipsum is simply dummy text of the printing and typesetting
               industry. Lorem ipsum has been the industry's standard dummy text
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="copyright">
-          Copyright 2024 &copy; Tomato.com - All Right Reserved.
+          Copyright 2024 &copy; ZayKaxpress - All Right Reserved.
         </p>
       </div>
     </>
