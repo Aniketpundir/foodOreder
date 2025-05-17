@@ -85,6 +85,7 @@ const RestaurentAddF = () => {
         pin_code: "",
         lati: "",
         longi: "",
+        // GSTIN: "",
       });
       setImage(false);
       // setToken(res.data.success)
@@ -114,6 +115,7 @@ const RestaurentAddF = () => {
           <form onSubmit={register}>
             <div className="form-input">
               <input
+                className="document"
                 type="file"
                 name="image"
                 onChange={(e) => setImage(e.target.files[0])}
@@ -127,6 +129,14 @@ const RestaurentAddF = () => {
                 onChange={onChangeHandler}
                 required
               />
+              {/* <input
+                placeholder="Restaurent GSTIN Number"
+                name="name"
+                type="text"
+                value={data.GSTIN}
+                onChange={onChangeHandler}
+                required
+              /> */}
               <input
                 placeholder="Mobile Number"
                 name="phone"

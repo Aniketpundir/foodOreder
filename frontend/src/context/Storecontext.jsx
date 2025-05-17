@@ -202,6 +202,7 @@ const StoreContextProvider = (props) => {
     setCartItem,
     fetchCart,
     amount,
+    district,
 
     isLoggedIn,
     tokens,

@@ -50,7 +50,7 @@ const RestaurentAdd = ({ setRestLogin }) => {
             <img onClick={() => setRestLogin(false)} src={assets.cross_icon} />
           </div>
           <div className="login-popup-input">
-            <div className="email-otp">
+            <div className="email-otps">
               <input
                 type="text"
                 name="email"

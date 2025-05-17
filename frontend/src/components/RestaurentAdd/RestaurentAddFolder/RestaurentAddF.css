@@ -1,5 +1,5 @@
 .Add-restaurent-container{
-    background-image: url('../../../assets/pexels-ash-craig-122861-376464.jpg');
+    background-color: rgba(255, 99, 71, 0.078);
     width: 100%;
     height: 170vh;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ h1{
     color: #fff;
     text-align: center;
     padding-right: 50px;
-    background-color: rgba(255, 99, 71, 0.173);
+    background-color: tomato;
     margin: 10px 30%;
 }
 
@@ -26,12 +26,15 @@ h1{
     margin: 5% 20%;
 }
 
+.document{
+    background-color: #fff;
+}
+
 .form-input input{
     margin: 10px 0px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.67);
     border: none;
-    color: #fff;
+    border: 1px solid black;
 }
 
 .Email-otp{
@@ -43,18 +46,11 @@ h1{
 .Email-otp button{
     width: 100%;
    padding: 6px;
-   background-color: rgba(255, 99, 71, 0.407);
+   background-color:tomato;
    color: #fff;
    font-size: 20px;
    border:none;
-}
-
-.form-input .submitButton{
-    margin: 10px 30%;
-    padding: 10px;
-    background-color: tomato;
-    border: none;
-    color: #fff;
+   cursor: pointer;
 }
 
 
@@ -68,12 +64,25 @@ h1{
     border: 2px solid tomato;
     text-align: center;
     padding: 10px;
-    background-color: rgba(255, 99, 71, 0.407);
+    background-color: tomato;
     color: #fff;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .location span{
-    color: tomato;
-    background-color: rgba(0, 0, 0, 0.434);
+    color: black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.098);
+}
+
+.submitButton{
+    margin: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: #fff;
+    font-size: 20px;
 }

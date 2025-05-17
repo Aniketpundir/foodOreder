@@ -81,7 +81,7 @@ const Navbar = ({ setShowLogin, setRestLogin }) => {
             {!token ? (
               !tokens ? (
                 <button onClick={() => setRestLogin(true)}>
-                  Restaurent Portal
+                  Restaurent Login
                 </button>
               ) : (
                 <button onClick={logout1}>Log Out</button>
