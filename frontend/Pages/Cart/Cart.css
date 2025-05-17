@@ -129,4 +129,8 @@
     background-color: tomato;
     color: black;
 }
+.cart-promocode-input{
+    display: flex;
+    flex-direction: row;
+}
 }

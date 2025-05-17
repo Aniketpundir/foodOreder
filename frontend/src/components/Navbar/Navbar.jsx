@@ -72,12 +72,7 @@ const Navbar = ({ setShowLogin, setRestLogin }) => {
     <>
       <div className="navbar">
         <Link to="/">
-          <img
-            data-aos="fade-right"
-            src={assets.logo}
-            alt="logo"
-            className="logo"
-          />
+          <h2 className="logo">Zaykaxpress.</h2>
           <h3 className="district">&#128205;{district}</h3>
         </Link>
 

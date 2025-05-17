@@ -8,7 +8,11 @@
 }
 
 .navbar .logo{
-    width: 150px;
+    padding: 0;
+}
+.navbar h2{
+    color: tomato;
+   
 }
 
 .navbar-menu{

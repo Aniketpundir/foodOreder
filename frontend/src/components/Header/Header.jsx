@@ -13,7 +13,6 @@ const Header = () => {
             mission is to satisfy your cravings and elevate your experience, one
             delicious meal at a time.
           </p>
-          <button>View Menu</button>
         </div>
       </div>
     </>
