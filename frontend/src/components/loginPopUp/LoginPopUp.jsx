@@ -101,7 +101,7 @@ const LoginPopUp = ({ setShowLogin }) => {
               {currState === "Login" ? (
                 ""
               ) : (
-                <button className="otp" type="submit" onClick={onSend}>
+                <button className="otps" type="submit" onClick={onSend}>
                   <OTPButton />
                 </button>
               )}

@@ -77,20 +77,18 @@
     cursor: pointer;
 }
 
-.otp{
-    position: absolute;
+.otps{
     width: 25%;
-    right: 30px;
-    /* margin-left: 10px; */
+    border-top-left-radius: 0px;
 }
 
-/* .email-otp{
+.email-otp{
     display: flex;
-} */
+    flex-direction: row;
+}
 
 .email-otp input{
-    position: relative;
-    width: 93%;
+    width: 70% !important;
 }
 
 @media (max-width:450px){
@@ -108,7 +106,7 @@
     border-radius: 4px;
     color: #fff;
     background-color: tomato;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
     transition: .3s all;
 }
