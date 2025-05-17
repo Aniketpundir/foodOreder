@@ -28,7 +28,12 @@ const RestaurantCard = () => {
                   <span className="location">
                     {items.address?.district} <br /> {items.address?.locality}
                   </span>
-                  <button onClick={() => navigate(`/menu/${items._id}`)}>
+                  <button
+                    onClick={() => {
+                      navigate(`/menu/${items._id}`);
+                      window.scroll(0, -10);
+                    }}
+                  >
                     View Menu
                   </button>
                 </div>

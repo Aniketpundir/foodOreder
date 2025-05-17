@@ -31,7 +31,7 @@ const RestaurentAdd = ({ setRestLogin }) => {
       setTokens(res.data.token);
       localStorage.setItem("tokens", res.data.token);
       setRestLogin(false);
-      navigate("/Layout1");
+      navigate("/RestaurantAdminPortal");
     } else {
       alert(res.data.message);
     }

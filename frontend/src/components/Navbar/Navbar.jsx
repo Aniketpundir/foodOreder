@@ -129,7 +129,7 @@ const Navbar = ({ setShowLogin, setRestLogin }) => {
                 </button>
               )
             ) : (
-              <Link to="Layout1">
+              <Link to="RestaurantAdminPortal">
                 <button>Restaurant Pannel</button>
               </Link>
             )}

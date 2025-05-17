@@ -56,7 +56,7 @@ const App = () => {
             <Route path="Your_Order" element={<MyOrder />} />
 
             <Route
-              path="Layout1"
+              path="RestaurantAdminPortal"
               element={
                 <ProtectedRoute>
                   <Layout1 />
