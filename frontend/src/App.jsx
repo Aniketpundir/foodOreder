@@ -38,7 +38,7 @@ const App = () => {
     AOS.refresh();
   }, []);
   alert(
-    "Note:-- In this website, restaurents will be shown only if there is a restaurant add within 10 km of your location."
+    "Note:-- In this website, restaurants will be displayed only if a registered restaurant is located within 10 km of your current location. If no restaurant is registered within this range, a random restaurant will be shown instead."
   );
   return (
     <StoreContextProvider>
